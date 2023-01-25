@@ -1,0 +1,221 @@
+<html>
+    <head>
+        <title>WWW.sai.org</title>
+    </head>
+        <style>
+                *{
+                    margin: 0;
+                    padding: 0;
+                    border-radius: 50px;
+                    font-family:Verdana, Geneva, Tahoma, sans-serif;
+					
+                }
+                header {
+                    background-image:url(Mask Group 1_new.jpg);
+                    height: 100vh;
+                    background-size: cover;
+                    background-position: center;
+                }
+                ul {
+                    float: right;
+                    list-style-type: none;
+					
+                }
+                ul li {
+                    display: inline-block;
+                    margin: 15px;
+                    
+                }
+                ul li a{
+                    text-decoration: none;
+                    color:black;
+                    height: 10px;
+                    padding: 10px 30px;
+                    border: 3px solid coral;
+                    transition: 0.6s ease;
+					background-color: gold;
+                }
+                ul li a:hover{
+                    background-color: red;
+                    color: white;
+                }
+                ul li.active a{
+                    color: black;
+					border-radius: 30px;
+                }
+                .logo img {
+                    float: left;
+                    width: 450px;
+                    height: 800px;
+					
+                }
+                .main {
+                    max-width: 1900px;
+                    margin: auto;
+                }
+                .title {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                }
+                .title h1 {
+                    color: rgb(255, 149, 0);
+                    text-shadow: 4px 3px 5px rgb(35, 23, 3);
+                    text-align: center;
+                    font-size: 60px;
+                }
+                .button {
+                    position: absolute;
+                    top: 60%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                }
+                .btn{
+                    border: 1px solid black;
+                    padding: 10px 30px;
+                    text-decoration: none;
+                    color: black;
+                    transition: 0.6s;
+                }
+                .btn:hover {
+                    background-color: black;
+                    color: white;
+                }
+
+                body {
+			background-color:whitesmoke;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			text-align: center;
+			background-image: url(Gallary/photo.jpg);
+		}
+	
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+			background-color: #fff;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 20px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+			
+		}
+
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input,
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 50px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		/* Styling Button */
+		button {
+			background-color: orange;
+			border: 1px solid #777;
+			border-radius: 20px;
+			font-family: inherit;
+			font-size: 21px;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
+        </style>
+        <body style="background-color: azure;">
+    <h1 style="background-color: gold;color:red; padding-left:125px; padding-bottom:20px;padding-top:10px;" >Shri Saibaba Sansthan Trust, Shirdi</h1>
+    <div class="main">
+      <div class="logo">
+          <img src="Gallary/bitmap@2x.png">
+      </div>
+    <ul>
+        <li class="active"><a href="Next.html">Next Page</a></li>
+        </ul>
+        <!-- Create Form -->
+        <form id="form">
+            <h1>Online Services</h1>
+            <a href="#">
+                <img src="Gallary/logo_shree.png" width="150">
+                </a>
+                <div class="form-control">
+                    <label for="Category" id="label-role">
+                        Cetegory
+                    </label>
+                    
+                    <!-- Dropdown options -->
+                    <select name="role" id="role">
+                        <option value="darshan">Darshan</option>
+                        <option value="aarti">Aarti</option>
+                        <option value="pooja">Pooja</option>
+                        <option value="accomodation">Accomodation</option>
+                    </select>
+                </div>
+
+            <!-- Details -->
+            <div class="form-control">
+                <label for="txt">Date</label><input type="date">
+            </div>
+    
+            <div class="form-control">
+                <label for="txt">Time</label><input type="time" value="time">
+            </div>
+    
+            <div class="form-control">
+                <label for="number">Number of Person</label><input type="Number">
+            </div>
+    
+            <div class="form-control">
+                <label for="number">Total Amount Rs.</label><input type= "Number">
+            </div>
+
+            
+            <!-- Multi-line Text Input Control -->
+            <button type="submit" value="submit">
+                Submit
+            </button>
+        </form>
+    </body>
+    </html>
+    <div class="row footer noselect" style="background-color: gold; padding-left:400px; padding-bottom:50px;padding-top:10px;">
+        <div class="login-nav-ssst1">
+             <ul class="navbar-nav footer-div">
+       <li class="nav-itemf">
+         <a class="nav-link" href="https://sai.org.in/" target="_blank"> <span class="nav-link-clrF">Get More Details</span></a>
+       </li>
+       <li class="nav-itemf">
+         <a href="contact us.html"><span class="nav-link-clrF">Contact Us</span></a>
+       </li>     
+                  <li class="nav-itemf">
+         <a class="nav-link" href="Feedback.html" target="_blank"><span class="nav-link-clrF">Feedback</span></a>
+       </li> 
+            <li class="nav-itemf">
+         <a class="nav-link" href="Information.html" target="_blank"><span class="nav-link-clrF">Information Centers</span></a>
+       </li>   
+     </ul></nav>
+    </body>
+    </html>
+    
